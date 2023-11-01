@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    /* --primary-color : #059669; */
+    --primary-color : #0284c7;
+    --white : #fff;
+    --dark-gray : #737373;
+    --gray : #eeeeee;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/* spaces */
+.margin-md{
+    margin: 4rem 0;
+}
+
+/* Typography */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Container */
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem; 
+}
+.link-primary{
+    background-color: var(--primary-color);
+    color: var(--white) ;
+    border-radius: 0.5rem;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+.link-magic{
+    letter-spacing: 1px;
+    font-weight: 0.8rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+ol h1{
+    margin-bottom: 1rem;
+}
+
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.navigation ul{
+    text-align: right;
+    margin-top: 0;
+}
+.navigation .link{
+    color: var(--white);
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    margin-top: 0;
+    color: var(--dark-gray);
+    letter-spacing: 1px;
+}
+.hero .hero-heading span{
+    color: var(--primary-color);
+    text-transform: uppercase;
+
+}
+.hero p span{
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+/* section */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--gray);
+}
+
+/* footer */
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    color: var(--white);
+}
+footer .footer-header{
+    font-weight: bold;
+}
+footer .link{
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+footer ul{
+    padding-inline-start: 0px;
+}
